@@ -4,7 +4,8 @@
   ## Description
   The Professional Readme Generator is a javascript project that's used to speed up the process of creating a professional and clean looking readme file for your projects
 
-  
+  ![visitors](https://visitor-badge.glitch.me/badge?page_id=Emiloeth.readme-generator&left_color=blue&right_color=blue)
+
 
   ## Table of contents
   - [Top](#)
