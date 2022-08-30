@@ -119,7 +119,7 @@ function generateMarkdown(data) {
   let systemsInfo = systemsCompatible(data.systems)
 
   return `
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=30&pause=2000&color=F7F7F7&width=435&lines=${data.title};By+${data.developer})](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Condensed&size=30&pause=2000&color=0078D6&width=435&lines=${data.title};By+${data.developer})](https://git.io/typing-svg)
   
   ## Description
   ${data.description}
