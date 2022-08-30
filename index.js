@@ -9,7 +9,12 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'title',
-        message: 'What is your project title?',
+        message: 'What is your project title? (Use + for spaces)',
+      },
+      {
+        type: 'input',
+        name: 'developer',
+        message: 'Made by: (use + for spaces)',
       },
       {
         type: 'input',
@@ -17,9 +22,33 @@ const promptUser = () => {
         message: 'Provide a project description.'
       },
       {
+        type: 'checkbox',
+        name: 'tools',
+        message: 'What tools did you use for this project?',
+        choices: ['JavaScript', 'HTML', 'CSS', 'VSCode', 'Node.js', 'Express', 'MySQL', 'Sequelize', 'Python', 'C++']
+      },
+      {
+        type: 'checkbox',
+        name: 'systems',
+        message: 'What systems are compatible with this project?',
+        choices: ['Windows', 'MacOS', 'Linux']
+      },
+      {
+        type: 'input',
+        name: 'link',
+        message: 'Paste a link to the deployed app (if applicable)'
+      },
+      {
+        type: 'confirm',
+        name: 'confirmInstallation',
+        message: 'Does your project need installation?',
+        default: false
+      },
+      {
         type: 'input',
         name: 'installation',
-        message: 'How do you install your project?'
+        message: 'How do you install your project?',
+        when: ({ confirmInstallation }) => confirmInstallation
       },
       {
         type: 'input',
