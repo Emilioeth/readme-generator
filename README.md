@@ -1,5 +1,5 @@
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=30&pause=2000&color=F7F7F7&width=435&lines=Professional+Readme+Generator;By+Emili0)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&size=30&pause=2000&color=F7F7F7&width=435&lines=Readme+Generator;By+Emili0)](https://git.io/typing-svg)
   
   ## Description
   The Professional Readme Generator is a javascript project that's used to speed up the process of creating a professional and clean looking readme file for your projects
