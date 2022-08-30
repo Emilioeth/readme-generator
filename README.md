@@ -43,4 +43,5 @@
 
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emilioeth)
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:web@emili0.com)
+  [![Discord](https://img.shields.io/badge/Emili0-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/345388388951654400/)
 
