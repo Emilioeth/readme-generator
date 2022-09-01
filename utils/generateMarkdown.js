@@ -124,7 +124,7 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
-  ${data.link}
+  [Link](${data.link})
 
   ![visitors](https://visitor-badge.glitch.me/badge?page_id=${data.username}.${data.title}&left_color=blue&right_color=blue)
 
