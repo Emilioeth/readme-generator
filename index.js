@@ -25,7 +25,7 @@ const promptUser = () => {
         type: 'checkbox',
         name: 'tools',
         message: 'What tools did you use for this project?',
-        choices: ['JavaScript', 'HTML', 'CSS', 'VSCode', 'Node.js', 'Express', 'MySQL', 'Sequelize', 'Python', 'C++']
+        choices: ['HTML', 'CSS', 'Python', 'Java', 'JavaScript', 'JQuery', 'Node.js', 'Express', 'React', 'C', 'C#', 'C++', 'PHP', 'Rust', 'Ruby', 'R', 'Solidity', 'Swift', 'MySQL', 'Sequelize', 'MongoDB', 'VSCode']
       },
       {
         type: 'checkbox',

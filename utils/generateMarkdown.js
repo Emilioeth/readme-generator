@@ -39,7 +39,19 @@ function toolsUsed(tools){
   let toolsInfoMysql = '';
   let toolsInfoSequelize = '';
   let toolsInfoPython = '';
+  let toolsInfoCPlus = '';
+  let toolsInfoJquery = '';
+  let toolsInfoMongo = '';
+  let toolsInfoReact = '';
   let toolsInfoC = '';
+  let toolsInfoCSharp = '';
+  let toolsInfoPHP = ''; 
+  let toolsInfoRust = '';
+  let toolsInfoSolidity = '';
+  let toolsInfoRuby = '';
+  let toolsInfoJava = '';
+  let toolsInfoSwift = '';
+  let toolsInfoR = '';
 
   for (let i = 0; i < tools.length; i++) {
     if (tools[i] === 'JavaScript') {
@@ -79,11 +91,59 @@ function toolsUsed(tools){
       `;
     }
     else if (tools[i] === 'C++') {
-      toolsInfoC = `![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+      toolsInfoCPlus = `![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
       `;
     }
+    else if (tools[i] === 'JQuery') {
+      toolsInfoJquery = `![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+      `;
+    }
+    else if (tools[i] === 'MongoDB') {
+      toolsInfoMongo = `![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+      `;
+    }
+    else if (tools[i] === 'React') {
+      toolsInfoReact = `![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+      `
+    }
+    else if (tools[i] === 'C') {
+      toolsInfoC = `	![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'C#') {
+      toolsInfoCSharp = `	![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'PHP') {
+      toolsInfoPHP = `![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'Rust') {
+      toolsInfoRust = `![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'Solidity') {
+      toolsInfoSolidity = `![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'Ruby') {
+      toolsInfoRuby = `![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'Java') {
+      toolsInfoJava = `![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'Swift') {
+      toolsInfoSwift = `![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white)
+      `
+    }
+    else if (tools[i] === 'R') {
+      toolsInfoR = `![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+      `
+    }
   }
-  let allTools = toolsInfoJs + toolsInfoHtml + toolsInfoCss + toolsInfoExpress + toolsInfoMysql + toolsInfoC + toolsInfoNode + toolsInfoPython + toolsInfoSequelize + toolsInfoVscode
+  let allTools = toolsInfoHtml + toolsInfoCss + toolsInfoPython + toolsInfoJava + toolsInfoJs + toolsInfoJquery + toolsInfoNode + toolsInfoExpress + toolsInfoReact + toolsInfoC + toolsInfoCPlus + toolsInfoCSharp + toolsInfoPHP + toolsInfoRust + toolsInfoRuby + toolsInfoR + toolsInfoSolidity + toolsInfoSwift + toolsInfoMysql + toolsInfoSequelize + toolsInfoMongo + toolsInfoVscode 
   return allTools;
 }
 
